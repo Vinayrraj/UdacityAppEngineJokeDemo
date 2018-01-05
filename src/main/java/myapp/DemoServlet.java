@@ -26,6 +26,6 @@ public class DemoServlet extends HttpServlet {
   public void doGet(HttpServletRequest req, HttpServletResponse resp)
       throws IOException {
     resp.setContentType("text/plain");
-    resp.getWriter().println("{ \"Joke: App Engine as submodile is depricated with android studio 3.0, so no other choice then to do this!!\" }");
+    resp.getWriter().println("Joke: App Engine as submodile is depricated with android studio 3.0, so no other choice then to do this!!");
   }
 }
